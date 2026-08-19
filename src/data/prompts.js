@@ -22,8 +22,8 @@ const prompts = [
     id: 3,
     type: "image",
     title: "Fantasy Landscape",
-    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600&auto=format&fit=crop",
-    thumbnail: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=600&auto=format&fit=crop",
+    thumbnail: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=600&auto=format&fit=crop",
     description: "Create an epic fantasy environment.",
     prompt: "An enormous fantasy mountain landscape with floating islands, waterfalls flowing through the clouds, ancient temples, glowing magical atmosphere, dramatic sunrise, volumetric lighting, highly detailed environment, cinematic composition, epic scale, photorealistic fantasy art, 4K."
   },
@@ -49,8 +49,8 @@ const prompts = [
     id: 9,
     type: "image",
     title: "3D Isometric Cyber Room",
-    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600&auto=format&fit=crop",
-    thumbnail: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&w=600&auto=format&fit=crop",
+    thumbnail: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&w=600&auto=format&fit=crop",
     description: "Cute and detailed 3D miniature room setup.",
     prompt: "3D isometric view of a cozy developer setup room at night, glowing dual monitors, neon LED strips, mechanical keyboard, plants on shelves, miniature aesthetic, soft pastel ambient lighting, blender 3D render, octane render, clean textures, smooth lighting, ultra-detailed."
   },
