@@ -1,3 +1,4 @@
+// src/pages/PromptDetail.jsx
 import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import prompts from "../data/prompts";
@@ -63,18 +64,25 @@ function PromptDetail() {
 
         <div className="detail-header">
 
-          <div className="detail-icon">
-            {prompt.type === "image" ? "🖼️" : "🎬"}
+          {/* INTEGRATED THUMBNAIL HERE */}
+          <div className="detail-header-thumbnail">
+            <img src={prompt.thumbnail} alt={prompt.title} />
           </div>
 
-          <div>
-            <span className="detail-type">
-              {prompt.type.toUpperCase()} PROMPT
-            </span>
+          <div className="detail-header-content">
+            <div className="detail-icon">
+              {prompt.type === "image" ? "🖼️" : "🎬"}
+            </div>
 
-            <h1>{prompt.title}</h1>
+            <div>
+              <span className="detail-type">
+                {prompt.type.toUpperCase()} PROMPT
+              </span>
 
-            <p>{prompt.description}</p>
+              <h1>{prompt.title}</h1>
+
+              <p>{prompt.description}</p>
+            </div>
           </div>
 
         </div>

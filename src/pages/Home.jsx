@@ -1,3 +1,4 @@
+// src/pages/Home.jsx
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import prompts from "../data/prompts";
@@ -174,6 +175,11 @@ function Home() {
                   key={prompt.id}
                 >
 
+                  {/* THUMBNAIL INTEGRATION */}
+                  <div className="prompt-card-thumbnail">
+                    <img src={prompt.thumbnail} alt={prompt.title} />
+                  </div>
+
                   <div className="prompt-card-top">
 
                     <div className="card-icon">
@@ -268,6 +274,11 @@ function Home() {
                   className="prompt-card"
                   key={prompt.id}
                 >
+
+                  {/* THUMBNAIL INTEGRATION */}
+                  <div className="prompt-card-thumbnail">
+                    <img src={prompt.thumbnail} alt={prompt.title} />
+                  </div>
 
                   <div className="prompt-card-top">
 
